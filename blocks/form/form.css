@@ -1,11 +1,11 @@
 :root {
-    --background-color-primary: #fff;
-    --label-color: #666;
-    --border-color: #818a91;
+    --background-color-primary:#eafafa;
+    --label-color: black;
+    --border-color: #002e7c;
     --form-error-color: #ff5f3f;
-    --button-primary-color: #5F8DDA;
+    --button-primary-color: red;
     --button-secondary-color: #666;
-    --button-primary-hover-color: #035fe6;
+    --button-primary-hover-color: black;
     --form-font-size-m: 22px;
     --form-font-size-s: 18px;
     --form-font-size-xs: 16px;
@@ -481,7 +481,7 @@ main .form .form-message.success-message {
 }
 
 main .form .form-message.error-message {
-    color: #842029;
+    color: white;
     background-color: #f8d7da;
     border-color: #f5c2c7;
     flex: 100%;
