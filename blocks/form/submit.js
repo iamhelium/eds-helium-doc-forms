@@ -84,7 +84,7 @@ async function prepareRequest(form) {
   let url;
   let baseUrl = getSubmitBaseUrl();
   if (!baseUrl && org && site) {
-    baseUrl = 'https://main--eds-helium-doc-forms--iamhelium.aem.page/advance-enquiry.json';
+    baseUrl = 'https://main--eds-helium-doc-forms--iamhelium.hlx.page/';
     headers['x-adobe-routing'] = `tier=${tier},bucket=${branch}--${site}--${org}`;
     url = baseUrl + btoa(form.dataset.action);
   } else {
